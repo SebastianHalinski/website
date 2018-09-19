@@ -4,12 +4,15 @@
 
 }
 .side {
-    flex: 30%;
-    background-color: burlywood;
+
+    flex: 20%;
+    background-color: lavender;
+    text-align:left;
+
 }
 .main {
-    flex: 70%;
-    background-color: aliceblue;
+    flex: 80%;
+    background-color: white;
 }
 
 .skillsrow {
@@ -20,10 +23,58 @@
 
 .soft {
     flex: 35%;
-    background-color: blueviolet;
+    background-color: white;
+    text-align: left;
+    padding-left: 10%;
+}
+.soft h3 {
+    font-size: 300%;
+
+ }
+.soft ul {
+    font-size: 180%;
+}
+
+.hard h3 {
+    font-size: 300%;
+}
+
+.hard ul {
+    font-size: 180%;
 }
 
 .hard {
     flex: 35%;
-    background-color: darkblue;
+    background-color: white;
+}
+
+.myimg {
+    padding: 2%;
+}
+
+.side p, h1, table {
+    padding: 2%;
+}
+
+.side img {
+    width: 70%;
+    min-width: 30%;
+}
+
+.mydescription {
+    text-align: center;
+    font-size: 200%;
+}
+
+.main h1{
+    font-size: 400%;
+    text-align: center;
+}
+
+.main img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    min-width: 10%;
 }

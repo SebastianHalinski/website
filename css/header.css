@@ -1,10 +1,11 @@
 .header {
-    padding: 80px;
+    padding: 50px;
     text-align: center;
-    background: aquamarine;
-    color: blueviolet;
+    background: ghostwhite;
+    color: black;
+    font-style: italic;
 }
 
 .header h1 {
-    font-size: 40px;
+    font-size: 60px;
 }

@@ -1,22 +1,35 @@
 .navigationbar {
     overflow: hidden;
-    background-color: darkblue;
+    background-color: black;
 }
 
 .navigationbar a {
-    color: azure;
+    color: white;
     float: left;
     display: block;
     text-align: center;
-    padding: 14px 20px;
+    padding: 1% 2%;
     text-decoration: none;
 }
 
-.navigationbar a.right {
-    float: right;
+.navigationbar a {
+    display: inline-block;
+    border-radius: 2%;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 100%;
+    padding: 3%px;
+    width: 20%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 0.4%;
 }
 
+
+
 .navigationbar a:hover {
-    background-color: aquamarine;
+    background-color: gray;
     color: black;
 }
