@@ -1,0 +1,13 @@
+.row {
+    display:flex;
+    flex-wrap: wrap;
+
+}
+.side {
+    flex: 30%;
+    background-color: burlywood;
+}
+.main {
+    flex: 70%;
+    background-color: aliceblue;
+}
