@@ -11,3 +11,19 @@
     flex: 70%;
     background-color: aliceblue;
 }
+
+.skillsrow {
+    display:flex;
+    flex-wrap: wrap;
+
+}
+
+.soft {
+    flex: 35%;
+    background-color: blueviolet;
+}
+
+.hard {
+    flex: 35%;
+    background-color: darkblue;
+}
