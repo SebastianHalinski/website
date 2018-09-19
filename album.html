@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="css/header.css" rel="stylesheet" type="text/css">
+    <link href="css/navbar.css" rel="stylesheet" type="text/css">
+    <link href="css/album.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="header">
+    <h1>Sebastian Haliński website</h1>
+</div>
+<div class="navigationbar">
+    <a href="index.html">About me</a>
+    <a href="album.html">Album</a>
+</div>
+
+<div class="slideshow-container">
+    <div class="mySlides fade">
+        <img src="album/img1.jpg" style="width:40%">
+    </div>
+
+    <div class="mySlides fade">
+        <img src="album/img3.jpg" style="width:40%">
+    </div>
+
+    <div class="mySlides fade">
+        <img src="album/img4.jpg" style="width:40%">
+    </div>
+
+    <div class="mySlides fade">
+        <img src="album/img5.jpg" style="width:40%">
+    </div>
+
+    <div class="mySlides fade">
+        <img src="album/img6.jpg" style="width:40%">
+    </div>
+</div>
+
+<script>
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}
+        slides[slideIndex-1].style.display = "block";
+        setTimeout(showSlides, 4000);
+    }
+</script>
+</body>
+</html>
