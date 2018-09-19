@@ -1,0 +1,22 @@
+.navigationbar {
+    overflow: hidden;
+    background-color: darkblue;
+}
+
+.navigationbar a {
+    color: azure;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navigationbar a.right {
+    float: right;
+}
+
+.navigationbar a:hover {
+    background-color: aquamarine;
+    color: black;
+}
